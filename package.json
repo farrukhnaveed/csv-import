@@ -1,0 +1,21 @@
+{
+  "name": "csv-import",
+  "version": "1.0.0",
+  "description": "import shipment data to postgresql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "csv",
+    "postgres",
+    "shipment",
+    "cost"
+  ],
+  "author": "Farrukh Naveed",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "pg-promise": "^11.5.4"
+  }
+}

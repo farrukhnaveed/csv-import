@@ -1,0 +1,31 @@
+Country,Carrier,Filename,tracking_code,shipping_invoice_number,shipment_currency,total_shipment_cost,tax_charges,fuel_charges,other_costs,shipping_cost,surcharge_cost,insurance_cost,status,FileNumber
+Australia,Brinks,Brinks AU April'23 - Aug'23,HAWB #,-,Currency Code,Total,Tax Amount,Fuel Charge,Other Charges,Valuation Charge,-,-,CLOSED,1
+,,Brinks AU Nov - Mar,HAWB #,-,Currency Code,Total,Tax Amount,Fuel Charge,Other Charges,Valuation Charge,-,-,CLOSED,2
+,Fedex,Fedex AU April'23 - Aug'23,Column Q,-,Column I,Column BN,-,Column BT,Column BR,Column BP,Column BV,-,CLOSED,3
+,,Fedex AU Nov - Mar,Column Q,-,Column I,Column BN,-,Column BT,Column BR,Column BP,Column BV,-,CLOSED,4
+,TNT,Fedex AU Tnt April'23 - Aug'23,Consignment No,-,AUD (put in hardcoded),Total Amount,GST,-,-,Freight Amount,Surcharge,-,CLOSED,5
+,,Nov - Mar 23.CSV,Consignment No,-,AUD (put in hardcoded),Total Amount,GST,-,-,Freight Amount,Surcharge,-,CLOSED,6
+Belgium,Malca,Malca Belgium April 22 - April 23,Hawb,-,EUR (put in hardcoded),Amount,-,-,-,-,-,-,CLOSED,7
+,,Details Nivoda - 2022 - 2023,Pakketnr,-,EUR (put in hardcoded),Pakketbedrag (remove the Euro symbol),-,-,-,-,-,-,CLOSED,8
+Hong Kong,Brinks,Brinks HK Nov'22-Mar'23,HAWB #,-,Currency Code,Total,-,-,Weight Charge,Valuation Charge,-,-,CLOSED,9
+,Fedex,Fedex HK Apr'23 to Aug'23,Column Q,-,Column I,Column BN,Column BX,Column BT,Column BR,Column BP,Column BV,-,CLOSED,10
+,,Fedex HK Nov- Mar,Column Q,-,Column I,Column BN,Column BX,Column BT,Column BR,Column BP,Column BV,-,CLOSED,11
+,,H05798 - NIVODA SHIPMENT BREAKDOWN (MAY'22-JUN'23),TrackingNumber,-,HKD (put in hardcoded),TotalCharge,-,-,-,-,-,INSURANCE CHARGE,CLOSED,12
+India,MISC,Nivoda Apr'23- Aug'23,HAWB No,-,Document Currency,Row Total,Total Tax,-,-,-,-,-,CLOSED,13
+,,Nivoda LLP,HAWB No,-,Document Currency,Row Total,Total Tax,-,-,-,-,-,CLOSED,14
+,,Brinks Jan 22 to April 23,HAWB # (Column D),,,,,,,,,,CLOSED,15
+,,STATEMENT,HAWB # (Column D),,,,,,,,,,CLOSED,16
+,,export list nivoda llp,-,Our Invoice No. (Column C),INR (put in hardcoded),Total Amount (Column P),Total Tax (Column N),-,-,-,-,-,CLOSED,17
+,,import excle nivoda llp,?,,,,,,,,,,CLOSED,18
+,,NIVODA LLP TILL 15TH MAY,TrackingNo,-,INR (put in hardcoded),AMOUNT DUE,GST,-,-,TOTAL,-,-,CLOSED,19
+,,Nivoda,TrackingNo,-,INR (put in hardcoded),AMOUNT DUE,GST,-,-,TOTAL,-,-,CLOSED,20
+Netherlands,Fedex,Fedex NL April'23 - Aug'23,Column Q,-,Column I,Column BN,Column BX,Column BT,Column BR,Column BP,Column BV,Column BZ,CLOSED,21
+,,Fedex NL Nov - Mar (2),Column Q,-,Column I,Column BN,Column BX,Column BT,Column BR,Column BP,Column BV,Column BZ,CLOSED,22
+UK,Fedex,Fedex UK April'23 - Aug'23,Column Q,-,Column I,Column BN,Column BX,Column BT,Column BR,Column BP,Column BV,Column BZ,CLOSED,23
+,,Fedex UK Nov-Mar,Column Q,-,Column I,Column BN,Column BX,Column BT,Column BR,Column BP,Column BV,Column BZ,CLOSED,24
+,UPS,Reporting & Search _ UPS Billing Centre_2023-05-15_71350,Tracking Number,-,GBP (put in hardcoded),Net Amount Due (remove the Pound symbol),-,-,-,-,-,-,CLOSED,25
+,,Reporting & Search _ UPS Billing Centre_2023-09-29_40452,Tracking Number,-,GBP (put in hardcoded),Net Amount Due (remove the Pound symbol),-,-,-,-,-,-,CLOSED,26
+US,Brinks,Brinks US Apr'23- Aug'23,HAWB #,-,Currency Code,Total,Tax Amount,Fuel Charge,Other Charges,Valuation Charge,Weight Charge,Base Charge,CLOSED,27
+,,Brinks US Nov'22-Mar'23,HAWB #,-,Currency Code,Total,Tax Amount,Fuel Charge,Other Charges,Valuation Charge,Weight Charge,Base Charge,CLOSED,28
+,Fedex,Fedex US Apr'23- Aug'23,Column J,-,USD (put in hardcoded),Column F,-,-,-,-,-,-,CLOSED,29
+,,Fedex US Nov-Mar,Column J,-,USD (put in hardcoded),Column F,-,-,-,-,-,-,CLOSED,30
