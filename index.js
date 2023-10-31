@@ -162,8 +162,6 @@ async function processFile(fileId, mapping) {
         from "Shipments"
         where "Shipments"."ShipmentCostId" = "ShipmentCosts".id
             and "Shipments".${whereKey} = $1;`;
-        console.log(query);
-        console.log(values);
 
         try {
             await db.none(query, values);
