@@ -170,7 +170,6 @@ async function processFile(fileId, mapping) {
         } catch (error) {
             console.error(`Error updating row with tracking_code = ${row.tracking_code}`, error);
         }
-        return;  //TODO: temp change
     }
 }
 
