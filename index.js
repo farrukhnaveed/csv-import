@@ -2,7 +2,7 @@ const fs = require('fs');
 const pgp = require('pg-promise')();
 const csv = require('csv-parser');
 const dbConfig = require('./config/db');
-const { columnTranslation } = require('./config/constants');
+const { dataType, columnTranslation } = require('./config/constants');
 
 // Specify the path to your CSV file
 const folder = './csvFiles';
@@ -71,6 +71,10 @@ async function getFileContent(fileId, mapping) {
                     if (['8', '25', '26'].includes(fileId) && ['total_shipment_cost'].includes(key)) {
                         row[field.file] = row[field.file].replace(/[^0-9.-]/g, '');
                     }
+                    
+                    if (dataType[key] === 'number' && (row[field.file] === '' || isNaN(Number(row[field.file])))) {
+                        row[field.file] = '0';
+                    }
                     data[key] = row[field.file];
                 } else {
                     data[key] = field.file;
@@ -95,9 +99,9 @@ async function init() {
     if (args.length > 0) {
         const fileId = args[0];
         if (fileId === 'all') {
-            processAllFiles();
+            await processAllFiles();
         } else if (/^[1-9]\d*$/.test(fileId) && parseInt(fileId) > 0 && parseInt(fileId) < 40) {
-            processFile(fileId, columnTranslation[fileId]);
+            await processFile(fileId, columnTranslation[fileId]);
         } else {
             console.log('Invalid arguments provided.');
         }

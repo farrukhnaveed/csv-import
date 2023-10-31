@@ -301,7 +301,7 @@ const columnTranslation = {
         status:{ table: 'ShipmentCosts', type: 'value', main: 'CLOSED', file: 'CLOSED' },
     },
     '23': {
-        tracking_code:{ table: 'Shipments', type: 'column', main: 'Column Q', file: 'Luchtvrachtbriefnummer' },
+        tracking_code:{ table: 'Shipments', type: 'column', main: 'Column Q', file: 'Air Waybill Number' },
         shipping_invoice_number:{ table: 'Shipments', type: 'value', main: null, file: null },
         shipment_currency:{ table: 'ShipmentCosts', type: 'column', main: 'Column I', file: 'In rekening gebrachte valuta' },
         total_shipment_cost:{ table: 'ShipmentCosts', type: 'column', main: 'Column BN', file: 'Totale bedrag luchtvrachtbrief' },
@@ -314,7 +314,7 @@ const columnTranslation = {
         status:{ table: 'ShipmentCosts', type: 'value', main: 'CLOSED', file: 'CLOSED' },
     },
     '24': {
-        tracking_code:{ table: 'Shipments', type: 'column', main: 'Column Q', file: 'Luchtvrachtbriefnummer' },
+        tracking_code:{ table: 'Shipments', type: 'column', main: 'Column Q', file: 'Air Waybill Number' },
         shipping_invoice_number:{ table: 'Shipments', type: 'value', main: null, file: null },
         shipment_currency:{ table: 'ShipmentCosts', type: 'column', main: 'Column I', file: 'In rekening gebrachte valuta' },
         total_shipment_cost:{ table: 'ShipmentCosts', type: 'column', main: 'Column BN', file: 'Totale bedrag luchtvrachtbrief' },
