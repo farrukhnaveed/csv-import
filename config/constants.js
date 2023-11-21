@@ -404,6 +404,19 @@ const columnTranslation = {
         insurance_cost:{ table: 'ShipmentCosts', type: 'value', main: null, file: null },
         status:{ table: 'ShipmentCosts', type: 'value', main: 'CLOSED', file: 'CLOSED' },
     },
+    '31': {
+        tracking_code:{ table: 'Shipments', type: 'column', main: 'Column Q', file: 'Air Waybill Number' },
+        shipping_invoice_number:{ table: 'Shipments', type: 'value', main: null, file: null },
+        shipment_currency:{ table: 'ShipmentCosts', type: 'column', main: 'Column I', file: 'Bill to Currency' },
+        total_shipment_cost:{ table: 'ShipmentCosts', type: 'column', main: 'Column BN', file: 'Air Waybill Total Amount' },
+        tax_charges:{ table: 'ShipmentCosts', type: 'value', main: null, file: null },
+        fuel_charges:{ table: 'ShipmentCosts', type: 'column', main: 'Column BT', file: 'Column BT Air Waybill Charge Amount' },
+        other_costs:{ table: 'ShipmentCosts', type: 'column', main: 'Column BR', file: 'Column BR Air Waybill Charge Amount' },
+        shipping_cost:{ table: 'ShipmentCosts', type: 'column', main: 'Column BP', file: 'Column BP Air Waybill Charge Amount' },
+        surcharge_cost:{ table: 'ShipmentCosts', type: 'column', main: 'Column BV', file: 'Column BV Air Waybill Charge Amount' },
+        insurance_cost:{ table: 'ShipmentCosts', type: 'value', main: null, file: null },
+        status:{ table: 'ShipmentCosts', type: 'value', main: 'CLOSED', file: 'CLOSED' },
+    },
 }
 
 module.exports = {

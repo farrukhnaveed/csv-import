@@ -29,3 +29,4 @@ US,Brinks,Brinks US Apr'23- Aug'23,HAWB #,-,Currency Code,Total,Tax Amount,Fuel 
 ,,Brinks US Nov'22-Mar'23,HAWB #,-,Currency Code,Total,Tax Amount,Fuel Charge,Other Charges,Valuation Charge,Weight Charge,Base Charge,CLOSED,28
 ,Fedex,Fedex US Apr'23- Aug'23,Column J,-,USD (put in hardcoded),Column F,-,-,-,-,-,-,CLOSED,29
 ,,Fedex US Nov-Mar,Column J,-,USD (put in hardcoded),Column F,-,-,-,-,-,-,CLOSED,30
+Australia,Fedex,April - Aug Fedex AU,Column Q,-,Column I,Column BN,-,Column BT,Column BR,Column BP,Column BV,-,CLOSED,31
